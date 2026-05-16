@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinay G | Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer focused on scalable distributed systems, backend architecture, and remote-first engineering." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0b1020;
+      color: #e5e7eb;
+      overflow-x: hidden;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .gradient-text {
+      background: linear-gradient(to right, #ffffff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .glow {
+      box-shadow: 0 0 80px rgba(99, 102, 241, 0.15);
+    }
+
+    .section-title {
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #94a3b8;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255,255,255,0.15);
+    }
+
+    .hero-grid {
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full z-50 border-b border-white/5 bg-[#0b1020]/80 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="text-lg font-semibold tracking-wide text-white">
+          abhinayg<span class="text-indigo-400">.com</span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm text-slate-300">
+          <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#expertise" class="hover:text-white transition">Expertise</a>
+          <a href="#experience" class="hover:text-white transition">Experience</a>
+          <a href="#writing" class="hover:text-white transition">Writing</a>
+          <a href="#contact" class="hover:text-white transition">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center hero-grid relative overflow-hidden">
+
+    <div class="absolute top-20 left-20 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 right-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-32 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+
+        <div class="lg:col-span-7">
+          <p class="text-indigo-400 font-medium tracking-wider mb-6 uppercase text-sm">
+            Senior Software Engineer · Remote-First
+          </p>
+
+          <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-8 gradient-text">
+            Building scalable systems with calm, long-term thinking.
+          </h1>
+
+          <p class="text-xl text-slate-400 leading-relaxed max-w-3xl mb-10">
+            I'm Abhinay, a senior software engineer with 16+ years of experience designing backend platforms, distributed systems, and reliable digital infrastructure. I focus on building systems that scale sustainably — technically and operationally.
+          </p>
+
+          <div class="flex flex-wrap gap-4 mb-12">
+            <a href="#contact" class="px-7 py-4 rounded-2xl bg-white text-black font-semibold hover:bg-slate-200 transition">
+              Get in Touch
+            </a>
+
+            <a href="#experience" class="px-7 py-4 rounded-2xl border border-white/10 text-white hover:border-white/20 transition glass">
+              View Experience
+            </a>
+          </div>
+
+          <div class="flex flex-wrap gap-4 text-sm text-slate-400">
+            <div class="glass rounded-full px-4 py-2">Distributed Systems</div>
+            <div class="glass rounded-full px-4 py-2">Backend Architecture</div>
+            <div class="glass rounded-full px-4 py-2">Scalability</div>
+            <div class="glass rounded-full px-4 py-2">Remote Engineering</div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="glass glow rounded-3xl p-8 border border-white/10">
+
+            <div class="flex items-center justify-between mb-8">
+              <div>
+                <h3 class="text-2xl font-bold text-white">Engineering Philosophy</h3>
+                <p class="text-slate-400 mt-2">Systems over hype.</p>
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              <div>
+                <h4 class="text-white font-semibold mb-2">Long-Term Thinking</h4>
+                <p class="text-slate-400 leading-relaxed">
+                  Great systems — and careers — compound over time through clarity, consistency, and good engineering decisions.
+                </p>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold mb-2">Operational Simplicity</h4>
+                <p class="text-slate-400 leading-relaxed">
+                  I prefer reliable, maintainable architectures over unnecessary complexity.
+                </p>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold mb-2">Remote-First Collaboration</h4>
+                <p class="text-slate-400 leading-relaxed">
+                  Strong communication, documentation, and ownership are foundational for high-performing distributed teams.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-28 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <p class="section-title">About</p>
+
+      <div class="grid lg:grid-cols-12 gap-12">
+
+        <div class="lg:col-span-5">
+          <h2 class="text-4xl font-bold text-white leading-tight">
+            Engineering systems that scale reliably over time.
+          </h2>
+        </div>
+
+        <div class="lg:col-span-7 space-y-6 text-slate-400 text-lg leading-relaxed">
+          <p>
+            Over the past 16+ years, I’ve worked across backend systems, large-scale platforms, engineering operations, and distributed architectures. My focus has always been on building stable systems that support long-term growth.
+          </p>
+
+          <p>
+            I enjoy solving complex technical problems while maintaining operational simplicity. I believe thoughtful engineering compounds — through reusable systems, good documentation, and sustainable architecture decisions.
+          </p>
+
+          <p>
+            Outside engineering, I’m deeply interested in long-term thinking, compounding, productivity systems, and building a balanced, sustainable life.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise -->
+  <section id="expertise" class="py-28 border-t border-white/5 bg-white/[0.02]">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <p class="section-title">Expertise</p>
+
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6 mt-10">
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <h3 class="text-xl font-bold text-white mb-4">Backend Architecture</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Designing resilient backend services and APIs with maintainability and operational simplicity in mind.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <h3 class="text-xl font-bold text-white mb-4">Distributed Systems</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Building scalable systems that handle performance, reliability, observability, and fault tolerance.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <h3 class="text-xl font-bold text-white mb-4">Engineering Leadership</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Driving technical decisions, mentoring engineers, and improving engineering effectiveness.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <h3 class="text-xl font-bold text-white mb-4">Remote Collaboration</h3>
+          <p class="text-slate-400 leading-relaxed">
+            Remote-first engineering practices focused on clarity, ownership, and asynchronous communication.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-28 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <p class="section-title">Experience</p>
+
+      <div class="space-y-8 mt-10">
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-white">Senior Software Engineer</h3>
+              <p class="text-slate-400 mt-1">Remote-first engineering and scalable backend systems</p>
+            </div>
+            <div class="text-slate-500 text-sm">16+ Years Experience</div>
+          </div>
+
+          <p class="text-slate-400 leading-relaxed text-lg">
+            Worked across backend engineering, platform development, distributed architectures, engineering processes, and long-term system scalability. Experienced in balancing technical excellence with business pragmatism.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Writing -->
+  <section id="writing" class="py-28 border-t border-white/5 bg-white/[0.02]">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <p class="section-title">Writing</p>
+
+      <div class="grid lg:grid-cols-3 gap-6 mt-10">
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <p class="text-sm text-indigo-400 mb-4">Systems Thinking</p>
+          <h3 class="text-2xl font-bold text-white mb-4 leading-snug">
+            How Engineering Compounds Over Time
+          </h3>
+          <p class="text-slate-400 leading-relaxed">
+            Why systems thinking, reusable knowledge, and reputation create exponential long-term career leverage.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <p class="text-sm text-indigo-400 mb-4">Architecture</p>
+          <h3 class="text-2xl font-bold text-white mb-4 leading-snug">
+            Simplicity as a Scaling Strategy
+          </h3>
+          <p class="text-slate-400 leading-relaxed">
+            The hidden operational cost of unnecessary complexity in modern distributed systems.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8 card-hover">
+          <p class="text-sm text-indigo-400 mb-4">Remote Engineering</p>
+          <h3 class="text-2xl font-bold text-white mb-4 leading-snug">
+            Building High-Trust Remote Teams
+          </h3>
+          <p class="text-slate-400 leading-relaxed">
+            Documentation, ownership, and asynchronous communication as engineering force multipliers.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-28 border-t border-white/5 relative overflow-hidden">
+
+    <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-transparent to-cyan-500/10"></div>
+
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
+
+      <p class="section-title">Contact</p>
+
+      <h2 class="text-5xl font-bold text-white leading-tight mb-8">
+        Interested in working together?
+      </h2>
+
+      <p class="text-xl text-slate-400 leading-relaxed mb-12 max-w-2xl mx-auto">
+        I’m open to remote engineering opportunities, backend architecture discussions, and thoughtful collaborations.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:hello@abhinayg.com" class="px-8 py-4 rounded-2xl bg-white text-black font-semibold hover:bg-slate-200 transition">
+          hello@abhinayg.com
+        </a>
+
+        <a href="https://github.com" target="_blank" class="px-8 py-4 rounded-2xl border border-white/10 text-white hover:border-white/20 transition glass">
+          GitHub
+        </a>
+
+        <a href="https://linkedin.com" target="_blank" class="px-8 py-4 rounded-2xl border border-white/10 text-white hover:border-white/20 transition glass">
+          LinkedIn
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 py-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <p>© 2026 Abhinay G. Built with clarity and long-term thinking.</p>
+
+      <div class="flex items-center gap-6">
+        <a href="#" class="hover:text-white transition">GitHub</a>
+        <a href="#" class="hover:text-white transition">LinkedIn</a>
+        <a href="#" class="hover:text-white transition">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
